@@ -1,10 +1,121 @@
 {
-  "last_updated": "Not yet updated",
+  "last_updated": "2026-07-21T03:28:12.976270+00:00",
   "grants": [
-    {"id":"grants-gov-search","title":"Search Federal Grant Opportunities","agency":"Grants.gov","category":"Technology","status":"open","summary":"Use the official federal portal to search current grant opportunities by agency, eligibility, and funding instrument.","deadline":"Varies by opportunity","eligibility":"Varies by opportunity","keywords":["federal","search","funding"],"url":"https://www.grants.gov/search-grants"},
-    {"id":"cops-office-funding","title":"COPS Office Funding Programs","agency":"Office of Community Oriented Policing Services","category":"Community Policing","status":"open","summary":"Official information about current and upcoming COPS Office grant programs.","deadline":"See official source","eligibility":"See official source","keywords":["hiring","community policing","training"],"url":"https://cops.usdoj.gov/grants"},
-    {"id":"ojp-current-opportunities","title":"OJP Current Funding Opportunities","agency":"Office of Justice Programs","category":"Training","status":"open","summary":"Official listings for justice-related funding opportunities, including training, technology, victim services, and public safety programs.","deadline":"See official source","eligibility":"See official source","keywords":["justice","victim services","technology"],"url":"https://www.ojp.gov/funding/explore/current-funding-opportunities"},
-    {"id":"fema-preparedness-grants","title":"FEMA Preparedness Grants","agency":"Federal Emergency Management Agency","category":"Preparedness","status":"open","summary":"Preparedness grant information that may support eligible state, local, tribal, and territorial public-safety organizations.","deadline":"See official source","eligibility":"See official source","keywords":["preparedness","emergency management","public safety"],"url":"https://www.fema.gov/grants/preparedness"}
+    {
+      "id": "grants-gov-search",
+      "title": "Search Federal Grant Opportunities",
+      "agency": "Grants.gov",
+      "category": "Technology",
+      "status": "open",
+      "summary": "Use the official federal portal to search current grant opportunities by agency, eligibility, and funding instrument.",
+      "deadline": "Varies by opportunity",
+      "eligibility": "Varies by opportunity",
+      "keywords": [
+        "federal",
+        "search",
+        "funding"
+      ],
+      "url": "https://www.grants.gov/search-grants"
+    },
+    {
+      "id": "cops-office-funding",
+      "title": "COPS Office Funding Programs",
+      "agency": "Office of Community Oriented Policing Services",
+      "category": "Community Policing",
+      "status": "open",
+      "summary": "Official information about current and upcoming COPS Office grant programs.",
+      "deadline": "See official source",
+      "eligibility": "See official source",
+      "keywords": [
+        "hiring",
+        "community policing",
+        "training"
+      ],
+      "url": "https://cops.usdoj.gov/grants"
+    },
+    {
+      "id": "ojp-current-opportunities",
+      "title": "OJP Current Funding Opportunities",
+      "agency": "Office of Justice Programs",
+      "category": "Training",
+      "status": "open",
+      "summary": "Official listings for justice-related funding opportunities, including training, technology, victim services, and public safety programs.",
+      "deadline": "See official source",
+      "eligibility": "See official source",
+      "keywords": [
+        "justice",
+        "victim services",
+        "technology"
+      ],
+      "url": "https://www.ojp.gov/funding/explore/current-funding-opportunities"
+    },
+    {
+      "id": "fema-preparedness-grants",
+      "title": "FEMA Preparedness Grants",
+      "agency": "Federal Emergency Management Agency",
+      "category": "Preparedness",
+      "status": "open",
+      "summary": "Preparedness grant information that may support eligible state, local, tribal, and territorial public-safety organizations.",
+      "deadline": "See official source",
+      "eligibility": "See official source",
+      "keywords": [
+        "preparedness",
+        "emergency management",
+        "public safety"
+      ],
+      "url": "https://www.fema.gov/grants/preparedness"
+    }
   ],
-  "sources": []
+  "sources": [
+    {
+      "id": "grants-gov",
+      "name": "Grants.gov",
+      "url": "https://www.grants.gov/",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-21T03:28:12.976270+00:00",
+      "error": null
+    },
+    {
+      "id": "doj-grants",
+      "name": "U.S. Department of Justice Grants",
+      "url": "https://www.justice.gov/grants",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-21T03:28:12.976270+00:00",
+      "error": null
+    },
+    {
+      "id": "cops-office",
+      "name": "COPS Office Funding",
+      "url": "https://cops.usdoj.gov/grants",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-21T03:28:12.976270+00:00",
+      "error": null
+    },
+    {
+      "id": "ojp-funding",
+      "name": "Office of Justice Programs Funding",
+      "url": "https://www.ojp.gov/funding",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-21T03:28:12.976270+00:00",
+      "error": null
+    },
+    {
+      "id": "fema-grants",
+      "name": "FEMA Grants",
+      "url": "https://www.fema.gov/grants",
+      "enabled": true,
+      "available": false,
+      "status_code": null,
+      "checked_at": "2026-07-21T03:28:12.976270+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
 }

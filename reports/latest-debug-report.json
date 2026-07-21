@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T03:14:12.935761+00:00",
+  "generated_at": "2026-07-21T03:28:13.961426+00:00",
   "status": "PASSED",
   "checks": [
     {
@@ -31,6 +31,10 @@
       "passed": true
     },
     {
+      "name": "Valid JSON: reports/latest-debug-report.json",
+      "passed": true
+    },
+    {
       "name": "Valid JSON: config/grant-categories.json",
       "passed": true
     },
@@ -43,6 +47,10 @@
       "passed": true
     },
     {
+      "name": "Valid JSON: data/history/2026-07-21T03-28-12.976270+00-00.json",
+      "passed": true
+    },
+    {
       "name": "Python syntax",
       "passed": true
     },
@@ -50,7 +58,7 @@
       "name": "Unit tests",
       "passed": true,
       "stdout": "",
-      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
     }
   ]
 }
