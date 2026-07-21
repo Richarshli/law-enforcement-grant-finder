@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Law Enforcement Grant Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Independent civic technology project</p>
+      <h1>Law Enforcement Grant Finder</h1>
+      <p>Search publicly available grant opportunities from approved government sources.</p>
+      <p id="last-updated" class="muted">Loading update information…</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section class="notice"><strong>Accuracy notice:</strong> Verify eligibility, deadlines, and requirements on the official linked source before applying.</section>
+    <section class="controls">
+      <input id="search" type="search" placeholder="Search grants, agencies, categories, or keywords" aria-label="Search grants">
+      <select id="category" aria-label="Filter by category"><option value="all">All categories</option></select>
+      <select id="status" aria-label="Filter by status"><option value="all">All statuses</option><option value="open">Open</option><option value="forecasted">Forecasted</option><option value="closed">Closed</option></select>
+    </section>
+    <section>
+      <div class="section-heading"><h2>Grant opportunities</h2><span id="result-count"></span></div>
+      <div id="grants" class="grid" aria-live="polite"></div>
+    </section>
+    <section>
+      <h2>Source health</h2>
+      <div id="source-health" class="source-list"></div>
+    </section>
+  </main>
+  <footer class="wrap footer">Unofficial and independent. Not endorsed by any government entity. No legal, financial, or grant-writing advice is provided.</footer>
+  <script src="app.js"></script>
+</body>
+</html>

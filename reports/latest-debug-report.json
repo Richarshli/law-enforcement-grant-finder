@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-07-21T03:14:12.935761+00:00",
+  "status": "PASSED",
+  "checks": [
+    {
+      "name": "Required file: index.html",
+      "passed": true
+    },
+    {
+      "name": "Required file: style.css",
+      "passed": true
+    },
+    {
+      "name": "Required file: app.js",
+      "passed": true
+    },
+    {
+      "name": "Required file: README.md",
+      "passed": true
+    },
+    {
+      "name": "Required file: config/approved-sources.json",
+      "passed": true
+    },
+    {
+      "name": "Required file: data/current/grants.json",
+      "passed": true
+    },
+    {
+      "name": "Required file: scripts/update_information.py",
+      "passed": true
+    },
+    {
+      "name": "Valid JSON: config/grant-categories.json",
+      "passed": true
+    },
+    {
+      "name": "Valid JSON: config/approved-sources.json",
+      "passed": true
+    },
+    {
+      "name": "Valid JSON: data/current/grants.json",
+      "passed": true
+    },
+    {
+      "name": "Python syntax",
+      "passed": true
+    },
+    {
+      "name": "Unit tests",
+      "passed": true,
+      "stdout": "",
+      "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n"
+    }
+  ]
+}

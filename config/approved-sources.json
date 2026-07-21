@@ -1,0 +1,11 @@
+{
+  "timeout_seconds": 25,
+  "maximum_bytes": 3000000,
+  "sources": [
+    {"id":"grants-gov","name":"Grants.gov","url":"https://www.grants.gov/","enabled":true},
+    {"id":"doj-grants","name":"U.S. Department of Justice Grants","url":"https://www.justice.gov/grants","enabled":true},
+    {"id":"cops-office","name":"COPS Office Funding","url":"https://cops.usdoj.gov/grants","enabled":true},
+    {"id":"ojp-funding","name":"Office of Justice Programs Funding","url":"https://www.ojp.gov/funding","enabled":true},
+    {"id":"fema-grants","name":"FEMA Grants","url":"https://www.fema.gov/grants","enabled":true}
+  ]
+}
