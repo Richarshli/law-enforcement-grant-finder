@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-07-23T16:11:18.709756+00:00",
+  "sources": [
+    {
+      "id": "grants-gov",
+      "name": "Grants.gov",
+      "url": "https://www.grants.gov/",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-23T16:11:18.709756+00:00",
+      "error": null
+    },
+    {
+      "id": "doj-grants",
+      "name": "U.S. Department of Justice Grants",
+      "url": "https://www.justice.gov/grants",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-23T16:11:18.709756+00:00",
+      "error": null
+    },
+    {
+      "id": "cops-office",
+      "name": "COPS Office Funding",
+      "url": "https://cops.usdoj.gov/grants",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-23T16:11:18.709756+00:00",
+      "error": null
+    },
+    {
+      "id": "ojp-funding",
+      "name": "Office of Justice Programs Funding",
+      "url": "https://www.ojp.gov/funding",
+      "enabled": true,
+      "available": true,
+      "status_code": 200,
+      "checked_at": "2026-07-23T16:11:18.709756+00:00",
+      "error": null
+    },
+    {
+      "id": "fema-grants",
+      "name": "FEMA Grants",
+      "url": "https://www.fema.gov/grants",
+      "enabled": true,
+      "available": false,
+      "status_code": null,
+      "checked_at": "2026-07-23T16:11:18.709756+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}
