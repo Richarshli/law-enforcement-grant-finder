@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:11:20.186674+00:00",
+  "generated_at": "2026-07-24T15:46:54.825788+00:00",
   "status": "PASSED",
   "checks": [
     {
@@ -35,23 +35,11 @@
       "passed": true
     },
     {
-      "name": "Valid JSON: config/grant-categories.json",
-      "passed": true
-    },
-    {
       "name": "Valid JSON: config/approved-sources.json",
       "passed": true
     },
     {
-      "name": "Valid JSON: data/current/grants.json",
-      "passed": true
-    },
-    {
-      "name": "Valid JSON: data/history/2026-07-23T16-11-18.709756+00-00.json",
-      "passed": true
-    },
-    {
-      "name": "Valid JSON: data/history/2026-07-21T03-28-12.976270+00-00.json",
+      "name": "Valid JSON: config/grant-categories.json",
       "passed": true
     },
     {
@@ -59,7 +47,23 @@
       "passed": true
     },
     {
+      "name": "Valid JSON: data/history/2026-07-21T03-28-12.976270+00-00.json",
+      "passed": true
+    },
+    {
+      "name": "Valid JSON: data/history/2026-07-24T15-46-53.746254+00-00.json",
+      "passed": true
+    },
+    {
+      "name": "Valid JSON: data/history/2026-07-23T16-11-18.709756+00-00.json",
+      "passed": true
+    },
+    {
       "name": "Valid JSON: data/history/2026-07-22T15-55-19.988848+00-00.json",
+      "passed": true
+    },
+    {
+      "name": "Valid JSON: data/current/grants.json",
       "passed": true
     },
     {
