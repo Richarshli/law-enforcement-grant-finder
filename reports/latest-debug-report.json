@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T14:51:34.585194+00:00",
+  "generated_at": "2026-09-02T14:27:25.581110+00:00",
   "status": "PASSED",
   "checks": [
     {
@@ -44,6 +44,10 @@
     },
     {
       "name": "Valid JSON: data/current/grants.json",
+      "passed": true
+    },
+    {
+      "name": "Valid JSON: data/history/2026-09-02T14-27-24.511779+00-00.json",
       "passed": true
     },
     {
