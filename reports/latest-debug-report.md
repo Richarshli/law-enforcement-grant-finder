@@ -14,6 +14,7 @@ Status: **PASSED**
 - PASS — Valid JSON: config/grant-categories.json
 - PASS — Valid JSON: data/current/grants.json
 - PASS — Valid JSON: data/history/2026-08-16T10-37-34.280487+00-00.json
+- PASS — Valid JSON: data/history/2026-09-27T15-08-52.528640+00-00.json
 - PASS — Valid JSON: data/history/2026-09-21T16-27-34.298455+00-00.json
 - PASS — Valid JSON: data/history/2026-09-22T14-50-35.066019+00-00.json
 - PASS — Valid JSON: data/history/2026-09-08T14-30-48.879540+00-00.json
